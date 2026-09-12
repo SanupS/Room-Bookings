@@ -16,7 +16,8 @@ export default function BookingPanel({
         checkOut: new Date(checkOutValue),
         room: selectedRoom,
       })
-    : null
+    : null  
+    
 
   return (
     <section className="panel">

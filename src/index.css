@@ -40,7 +40,7 @@ body {
   flex-direction: column;
 }
 
-/* Header */
+
 .app-header {
   display: flex;
   align-items: center;
@@ -91,7 +91,7 @@ body {
   color: #cbd5e1;
 }
 
-/* Hero banner */
+
 .hero {
   background-size: cover, cover, cover;
   background-position: center, center, center;
@@ -140,7 +140,7 @@ body {
   }
 }
 
-/* Layout */
+
 .app__grid {
   flex: 1;
   display: grid;
@@ -159,7 +159,7 @@ body {
   }
 }
 
-/* Panels */
+
 .panel {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -186,7 +186,7 @@ body {
   padding: 18px;
 }
 
-/* Room list */
+
 .room-list {
   display: flex;
   flex-direction: column;
@@ -285,7 +285,7 @@ body {
   color: var(--text-muted);
 }
 
-/* Date fields */
+
 .date-fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -322,7 +322,7 @@ body {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
-/* Messages */
+
 .message {
   margin: 14px 0 0;
   font-size: 13px;
@@ -343,7 +343,7 @@ body {
   border: 1px solid var(--border);
 }
 
-/* Summary */
+
 .summary {
   margin-top: 16px;
   border-top: 1px solid var(--border);

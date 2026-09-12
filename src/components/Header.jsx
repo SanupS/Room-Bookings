@@ -9,9 +9,9 @@ export default function Header() {
   return (
     <header className="app-header">
       <div className="app-header__brand">
-        <span className="app-header__mark">RT</span>
+        <span className="app-header__mark">H</span>
         <div>
-          <h1>Raintech Hotels</h1>
+          <h1>Rajarani Hotels</h1>
           <p>Room booking</p>
         </div>
       </div>

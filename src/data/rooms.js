@@ -1,6 +1,4 @@
-// Sample room inventory. In a real app this would come from an API.
-// `image` is a representative stock photo; RoomCard falls back to a
-// gradient swatch (see FALLBACK_GRADIENTS) if it fails to load.
+
 export const ROOMS = [
   {
     code: 'R101',
@@ -39,8 +37,7 @@ export const ROOMS = [
   },
 ]
 
-// Fallback gradient per room type, used behind the photo so a failed
-// image load never shows a broken-image icon — just a themed swatch.
+
 export const FALLBACK_GRADIENTS = {
   'Deluxe Room': ['#fde8c8', '#f0b429'],
   'Executive Suite': ['#c7d8f0', '#2b4a76'],

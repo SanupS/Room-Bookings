@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section className="hero" style={heroStyle}>
       <div className="hero__content">
-        <p className="hero__eyebrow">Raintech Hotels</p>
+        <p className="hero__eyebrow">Rajarani Hotels</p>
         <h2>Find your perfect room</h2>
         <p className="hero__sub">Pick a room and your dates below to see the total instantly.</p>
       </div>
