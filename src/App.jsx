@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import Header from './components/Header.jsx'
+import Hero from './components/Hero.jsx'
 import RoomList from './components/RoomList.jsx'
 import BookingPanel from './components/BookingPanel.jsx'
 import { ROOMS } from './data/rooms.js'
@@ -29,6 +30,7 @@ export default function App() {
   return (
     <div className="app">
       <Header />
+      <Hero />
       <main className="app__grid">
         <RoomList
           rooms={ROOMS}
