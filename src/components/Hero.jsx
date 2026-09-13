@@ -1,9 +1,7 @@
 import { HERO_IMAGE } from '../data/rooms.js'
 
 export default function Hero() {
-  // Layered backgrounds, topmost first: a dark overlay for text contrast,
-  // then the photo, then a themed gradient fallback in case the photo
-  // fails to load — so the banner never shows a broken image.
+ 
   const heroStyle = {
     backgroundImage: [
       'linear-gradient(120deg, rgba(20,41,61,0.82), rgba(20,41,61,0.45))',
