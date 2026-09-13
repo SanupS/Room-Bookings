@@ -2,6 +2,9 @@ import { HERO_IMAGE } from '../data/rooms.js'
 
 export default function Hero() {
  
+
+
+  
   const heroStyle = {
     backgroundImage: [
       'linear-gradient(120deg, rgba(20,41,61,0.82), rgba(20,41,61,0.45))',
